@@ -141,3 +141,51 @@ flex-direction: column;
 align-items: center;
 justify-content: space-evenly;
 }
+/*//////////////////////////in mobile////////////////////////////*/
+
+@media (max-width: 567px){
+
+.container{
+width: auto;
+height: auto;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+.div1{
+    width: 450px;
+    margin: auto;
+    height: 300px;
+    margin-bottom: 10px;
+    order: 1;
+}
+.div2{
+    width: 450px;
+    margin: auto;
+    height: 200px;
+    margin-bottom: 10px;
+    order: 2;
+}
+.div3{
+    width: 450px;
+    margin: auto;
+    height: 330px;
+    margin-bottom: 10px;
+    order: 5;
+}
+.div4{
+    width: 450px;
+    margin: auto;
+    height: 200px;
+    margin-bottom: 10px;
+    order: 3;
+}
+.div5{
+    width: 450px;
+    margin: auto;
+    height: 250px;
+    margin-bottom: 10px;
+    order: 4;
+}
+
+}
